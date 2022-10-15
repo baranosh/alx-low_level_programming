@@ -6,7 +6,7 @@
  * Description: prints all single digit numbers of base 10
  * Return: 0
  */
-int main(0)
+int main(void)
 {
 	char c = '0';
 
