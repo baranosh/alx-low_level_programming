@@ -4,7 +4,7 @@
  * main - entry point
  * Return: always returns 0
  */
-int main(0);
+int main(void)
 {
 	int i;
 	int j;
