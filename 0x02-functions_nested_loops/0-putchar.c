@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - check the code
  * Writing a script that prints _putchar and a new line
@@ -6,8 +6,15 @@
  */
 int main(void)
 {
-	putchar("_putchar");
-
+	putchar("_");
+	putchar("p");
+	putchar("u");
+	putchar("t");
+	putchar("c");
+	putchar("h");
+	putchar("a");
+	putchar("r");
 	putchar("\n");
+
 	return (0);
 }
