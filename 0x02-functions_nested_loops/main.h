@@ -1,5 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
-int _putchar{char c}
+/**
+ * main.h file
+ * Header file that contains the declaration of our functions
+ */
+
+int _putchar(char c);
 
 #endif

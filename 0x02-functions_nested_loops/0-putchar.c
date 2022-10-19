@@ -1,21 +1,21 @@
 #include "main.h"
 
-/** main - Task 0
- * Write a code that prints _putchar
- * Return: Always 0
+/**
+ * This script is to print out _putchar with a new line
+ * Return: 0
  */
 
-int main(void)
+int main()
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-	
-return (0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return 0;
 }
