@@ -5,7 +5,7 @@
  * 
  * Return: Always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char atoz='a';
 		while (atoz <= 'z')
