@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * This script is to print out _putchar with a new line
- * Return: 0
+ * Main - This script prints out _putchar with a new line
+ * Return: Always 0 (Success)
  */
 
 int main(void)
