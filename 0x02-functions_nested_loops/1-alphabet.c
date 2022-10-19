@@ -5,9 +5,9 @@
  * 
  * Return: Always 0
  */
-int main(void);
+int main(void)
 {
-	char atoz= 'a';
+	char atoz='a';
 		while (atoz <= 'z')
 		{
 			_putchar (atoz);
