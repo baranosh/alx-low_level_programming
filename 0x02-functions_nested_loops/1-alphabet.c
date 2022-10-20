@@ -9,13 +9,14 @@
 
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char atoz = 'a';
 
-		while (alp <= 'z')
+		while (atoz <= 'z')
 		{
 			_putchar (alp);
-			alp++;
+			atoz++;
 		}
 
 		_putchar('\n');
+		return (0);
 }
