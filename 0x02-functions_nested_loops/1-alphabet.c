@@ -1,19 +1,21 @@
 #include "main.h"
 /**
- * Main - I sometimes suffer from Insomnia
+ * print_alphabet - I sometimes suffer from Insomnia
  * And all I can do is just read 
  * 
  * Return: Always 0
  */
-void print_alphabet(void)
+int main(void)
 {
-	char atoz='a';
-		while (atoz <= 'z')
+	char atz= 'a';
+
+		while (atz <= 'z')
 		{
-			_putchar (atoz);
-			atoz++;
+			_putchar(atz);
+			atz++;
 		}
-	_putchar ('\n');
+
+	_putchar('\n');
 
 	return (0);
 }
