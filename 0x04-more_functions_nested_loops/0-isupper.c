@@ -3,14 +3,13 @@
 /**
  * main - check code
  * This program checks for uppercase characters
- * Return: Always 0
+ * Return: 0 or 1
  */
 int _isupper(int c)
 {
 	char c;
-	if (c >= 'A' && c <= 'Z')
-		printf("Character is uppercase letters");
+	if (c >= 'A' && c <= 'Z');
+		return (1);
 	else
-		printf("Character is not uppercase letters");
-	return (0);
+		return (0);
 }
