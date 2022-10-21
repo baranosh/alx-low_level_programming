@@ -8,11 +8,6 @@
 
 int _isupper(int c)
 {
-    char c;
-
-    printf("\nEnter The Character : ");
-    scanf("%c", &c);
-
 	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
