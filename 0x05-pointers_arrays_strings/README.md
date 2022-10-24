@@ -1,3 +1,4 @@
+[pas.pdf](https://github.com/baranosh/alx-low_level_programming/files/9855562/pas.pdf)
 POINTERS, ARRAYS, AND STRINGS IN C
 
 TASK 0: Write a function that takes a pointer to an int as a parameter and updates the value it points to 98.
