@@ -4,13 +4,13 @@
 
 You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
 
-The variable n will store a different value every time you will run this program
+*The variable n will store a different value every time you will run this program*
 
-You don’t have to understand what rand, srand, RAND_MAX do. Please do not touch this code
+*You don’t have to understand what rand, srand, RAND_MAX do. Please do not touch this code*
 
 The output of the program should be:
 
-The number, followed by
+*The number, followed by*
 
 if the number is greater than 0: is positive
 
@@ -56,9 +56,9 @@ You can only use putchar twice in your code
 
 *You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)*
 
-*All your code should be in the main function
+*All your code should be in the main function*
 
-You can only use putchar three times in your code
+*You can only use putchar three times in your code*
 
 	TASK 4: Write a program that prints the alphabet in lowercase, followed by a new line.
 
