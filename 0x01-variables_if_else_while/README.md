@@ -8,7 +8,7 @@ You can find the source code [here](https://github.com/holbertonschool/0x01.c/bl
 
 *You don’t have to understand what rand, srand, RAND_MAX do. Please do not touch this code*
 
-//The output of the program should be://
+<The output of the program should be:/>
 
 *The number, followed by*
 
