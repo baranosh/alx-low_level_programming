@@ -1,10 +1,10 @@
-0x01.C - VARIABLES, IF, ELSE, WHILE
+# 0x01.C - VARIABLES, IF, ELSE, WHILE
 
 	TASK 0: This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
 
-You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
+# You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/0-positive_or_negative_c)
 
-The variable n will store a different value every time you will run this program
+# The variable n will store a different value every time you will run this program
 
 You don’t have to understand what rand, srand, RAND_MAX do. Please do not touch this code
 
