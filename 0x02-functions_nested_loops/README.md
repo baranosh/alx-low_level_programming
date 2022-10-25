@@ -1,91 +1,69 @@
 0x02. C - FUNCTIONS, NESTED LOOPS
 
-TASK 0: Write a program that prints _putchar, followed by a new line.
+	TASK 0: Write a program that prints _putchar, followed by a new line.
 
 The program should return 0
 
-TASK 1: Write a function that prints the alphabet, in lowercase, followed by a new line.
+	TASK 1: Write a function that prints the alphabet, in lowercase, followed by a new line.
 
-Prototype: void print_alphabet(void);
-You can only use _putchar twice in your code
+Prototype: void print_alphabet(void); You can only use _putchar twice in your code
 
-TASK 2: Write a function that prints the alphabet, in lowercase, followed by a new line.
+	TASK 2: Write a function that prints the alphabet, in lowercase, followed by a new line.
 
-Prototype: void print_alphabet(void);
-You can only use _putchar twice in your code
+Prototype: void print_alphabet(void); You can only use _putchar twice in your code
 
-TASK 3: Write a function that checks for lowercase character.
+	TASK 3: Write a function that checks for lowercase character.
 
-Prototype: int _islower(int c);
-Returns 1 if c is lowercase
-Returns 0 otherwise
+Prototype: int _islower(int c); Returns 1 if c is lowercase Returns 0 otherwise
 
-TASK 4: Write a function that checks for alphabetic character.
+	TASK 4: Write a function that checks for alphabetic character.
 
-Prototype: int _isalpha(int c);
-Returns 1 if c is a letter, lowercase or uppercase
-Returns 0 otherwise
+Prototype: int _isalpha(int c); Returns 1 if c is a letter, lowercase or uppercase Returns 0 otherwise
 
-TASK 5: Write a function that prints the sign of a number.
+	TASK 5: Write a function that prints the sign of a number.
 
-Prototype: int print_sign(int n);
-Returns 1 and prints + if n is greater than zero
-Returns 0 and prints 0 if n is zero
-Returns -1 and prints - if n is less than zero
+Prototype: int print_sign(int n); Returns 1 and prints + if n is greater than zero Returns 0 and prints 0 if n is zero Returns -1 and prints - if n is less than zero
 
-TASK 6: Write a function that computes the absolute value of an integer.
+	TASK 6: Write a function that computes the absolute value of an integer.
 
 Prototype: int _abs(int);
 
-TASK 7: Write a function that prints the last digit of a number.
+	TASK 7: Write a function that prints the last digit of a number.
 
-Prototype: int print_last_digit(int);
-Returns the value of the last digit
+Prototype: int print_last_digit(int); Returns the value of the last digit
 
-TASK 8: Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+	TASK 8: Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
-Prototype: void jack_bauer(void);
-You can listen to this soundtrack while coding :)
+Prototype: void jack_bauer(void); You can listen to this soundtrack while coding :)
 
-TASK 9: Write a function that prints the 9 times table, starting with 0.
+	TASK 9: Write a function that prints the 9 times table, starting with 0.
 
 Prototype: void times_table(void);
 
-TASK 10: Write a function that adds two integers and returns the result.
+	TASK 10: Write a function that adds two integers and returns the result.
 
 Prototype: int add(int, int);
 
-TASK 11: Write a function that prints all natural numbers from n to 98, followed by a new line.
+	TASK 11: Write a function that prints all natural numbers from n to 98, followed by a new line.
 
-Prototype: void print_to_98(int n);
-Numbers must be separated by a comma, followed by a space
-Numbers should be printed in order
-The first printed number should be the number passed to your function
-The last printed number should be 98
-You are allowed to use the standard library
+Prototype: void print_to_98(int n); Numbers must be separated by a comma, followed by a space Numbers should be printed in order The first printed number should be the number passed to your function The last printed number should be 98 You are allowed to use the standard library
 
-TASK 12: Write a function that prints the n times table, starting with 0.
+	TASK 12: Write a function that prints the n times table, starting with 0.
 
-Prototype: void print_times_table(int n);
-If n is greater than 15 or less than 0 the function should not print anything
+Prototype: void print_times_table(int n); If n is greater than 15 or less than 0 the function should not print anything
 
-TASK 13: If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Write a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
+	TASK 13: If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Write a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
 
 You are allowed to use the standard library
 
-TASK 14: Write a program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+	TASK 14: Write a program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
 
-The numbers must be separated by comma, followed by a space , 
+The numbers must be separated by comma, followed by a space , You are allowed to use the standard library
+
+	TASK 15: Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89. By considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000, write a program that finds and prints the sum of the even-valued terms, followed by a new line.
+
 You are allowed to use the standard library
 
-TASK 15: Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89. By considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000, write a program that finds and prints the sum of the even-valued terms, followed by a new line.
+	TASK 16: Write a program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
 
-You are allowed to use the standard library
-
-TASK 16: Write a program that finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
-
-The numbers should be separated by comma, followed by a space ,
-You are allowed to use the standard library
-You are not allowed to use any other library (You can’t use GMP etc…)
-You are not allowed to use long long, malloc, pointers, arrays/tables, or structures
-You are not allowed to hard code any Fibonacci number (except for 1 and 2)
+The numbers should be separated by comma, followed by a space , You are allowed to use the standard library You are not allowed to use any other library (You can’t use GMP etc…) You are not allowed to use long long, malloc, pointers, arrays/tables, or structures You are not allowed to hard code any Fibonacci number (except for 1 and 2)
