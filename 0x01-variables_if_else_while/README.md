@@ -50,11 +50,11 @@ _You can only use the putchar function (every other function (printf, puts, etc�
 
 _All your code should be in the main function
 
-_You can only use putchar twice in your code
+*You can only use putchar twice in your code
 
 	TASK 3: Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 
-You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+*You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 
 All your code should be in the main function
 
