@@ -24,7 +24,7 @@ You can find the source code [here](https://github.com/holbertonschool/0x01.c/bl
 
 You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/1-last_digit_c)
 
-<The variable n will store a different value every time you run this program>
+<The variable n will store a different value every time you run this program
 
 You don’t have to understand what rand, srand, and RAND_MAX do. Please do not touch this code
 
