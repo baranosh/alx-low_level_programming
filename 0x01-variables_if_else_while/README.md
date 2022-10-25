@@ -24,7 +24,7 @@ The output of the program should be:
 
 You can find the source code [here](https://github.com/holbertonschool/0x01.c/blob/master/1-last_digit_c)
 
-The variable n will store a different value every time you run this program
+*The variable n will store a different value every time you run this program
 
 You don’t have to understand what rand, srand, and RAND_MAX do. Please do not touch this code
 
@@ -56,9 +56,9 @@ You can only use putchar twice in your code
 
 *You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)*
 
-*All your code should be in the main function*
+All your code should be in the main function
 
-*You can only use putchar three times in your code*
+You can only use putchar three times in your code
 
 	TASK 4: Write a program that prints the alphabet in lowercase, followed by a new line.
 
@@ -166,7 +166,7 @@ The combination of numbers must be separated by comma, followed by a space
 
 The combinations of numbers should be printed in ascending order
 
-00 01 and 01 00 are considered as the same combination of the numbers 0 and 1
+00, 01, and 01, 00, are considered as the same combination of the numbers 0 and 1
 
 You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 
