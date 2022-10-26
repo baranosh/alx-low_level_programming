@@ -5,7 +5,7 @@
 - This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
 - Returns a pointer to the resulting string dest
 
-	 ### TASK 1: Write a function that concatenates two strings.
+     ### TASK 1: Write a function that concatenates two strings.
 	 
 - Prototype: char *_strncat(char *dest, char *src, int n);
 - The _strncat function is similar to the _strcat function, except that
@@ -13,18 +13,18 @@
 - src does not need to be null-terminated if it contains n or more bytes
 - Return a pointer to the resulting string dest
 
-	### TASK 2: Write a function that copies a string.
+     ### TASK 2: Write a function that copies a string.
 	
 - Prototype: char *_strncpy(char *dest, char *src, int n);
 - Your function should work exactly like strncpy
 
-	### TASK 3: Write a function that compares two strings.
+    ### TASK 3: Write a function that compares two strings.
 	
 - Prototype: int _strcmp(char *s1, char *s2);
 - 
 - Your function should work exactly like strcmp
 
-	### TASK 4: Write a function that reverses the content of an array of integers.
+   ### TASK 4: Write a function that reverses the content of an array of integers.
 	
 - Prototype: void reverse_array(int *a, int n);
 - Where n is the number of elements of the array
@@ -37,7 +37,7 @@
 - Prototype: char *cap_string(char *);
 - Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
 
-	### TASK 7: Write a function that encodes a string into 1337.
+    ### TASK 7: Write a function that encodes a string into 1337.
 	
 - Letters a and A should be replaced by 4
 - Letters e and E should be replaced by 3
@@ -50,21 +50,21 @@
 - You are not allowed to use switch
 - You are not allowed to use any ternary operatioN
 
-	### TASK 8: Write a function that encodes a string using rot13.
+    ### TASK 8: Write a function that encodes a string using rot13.
 - Prototype: char *rot13(char *);
 - You can only use if statement once in your code
 - You can only use two loops in your code
 - You are not allowed to use switch
 - You are not allowed to use any ternary operation
 
-	TASK 9: Write a function that prints an integer.
+  ### TASK 9: Write a function that prints an integer.
 - Prototype: void print_number(int n);
 - You can only use _putchar function to print
 - You are not allowed to use long
 - You are not allowed to use arrays or pointers
 - You are not allowed to hard-code special values
 
-	### TASK 10: Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
+   ### TASK 10: Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
 - You are not allowed to use the variable a in your new line of code
 - You are not allowed to modify the variable p
 - You can only write one statement
@@ -75,7 +75,7 @@
 -and don’t change anything but the line of code you are adding (don’t change the spaces to tabs!)
 - You are allowed to use the standard library
 
-	### TASK 11: Write a function that adds two numbers.
+    ### TASK 11: Write a function that adds two numbers.
 - Prototype: char *infinite_add(char *n1, char *n2, char *r, int size_r);
 - Where n1 and n2 are the two numbers
 - r is the buffer that the function will use to store the result
@@ -86,7 +86,7 @@
 - n1 and n2 will never be empty
 - If the result can not be stored in r the function must return 0
 
-	### TASK 12: Write a function that prints a buffer.
+    ### TASK 12: Write a function that prints a buffer.
 - Prototype: void print_buffer(char *b, int size);
 - The function must print the content of size bytes of the buffer pointed by b
 - The output should print 10 bytes per line
