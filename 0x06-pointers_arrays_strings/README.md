@@ -7,7 +7,7 @@
  
 - Returns a pointer to the resulting string dest
 
-	 TASK 1: Write a function that concatenates two strings.
+	 ##TASK 1: Write a function that concatenates two strings.
 	 
 - Prototype: char *_strncat(char *dest, char *src, int n);
 - The _strncat function is similar to the _strcat function, except that
