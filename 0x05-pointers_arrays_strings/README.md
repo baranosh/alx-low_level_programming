@@ -1,4 +1,4 @@
-POINTERS, ARRAYS, AND STRINGS IN C
+# 0x05 POINTERS, ARRAYS, AND STRINGS IN C
 
 TASK 0: Write a function that takes a pointer to an int as a parameter and updates the value it points to 98.
 
