@@ -1,6 +1,6 @@
 # 0x07 EVEN POINTERS, ARRAYS AND STRINGS
 
-	## TASK 0
+	# TASK 0
 Write a function that fills memory with a constant byte.
 
 - Prototype: char *_memset(char *s, char b, unsigned int n);
