@@ -49,7 +49,7 @@ Write a function that concatenates two strings.
 - Write a function that encodes a string into 1337.
 	
      - Letters `a` and `A` should be replaced by `4`
-     - Letters `e` and E` should be replaced by `3`
+     - Letters `e` and 'E` should be replaced by `3`
      - Letters `o` and `O` should be replaced by `0`
      - Letters `t` and `T` should be replaced by `7`
      - Letters `l` and `L` should be replaced by `1`
@@ -101,7 +101,7 @@ Write a function that concatenates two strings.
      - You can assume that you will always get positive numbers, or `0`
      - You can assume that there will be only digits in the strings `n1` and `n2`
      - `n1` and `n2` will never be empty
-     - If the result can not be stored in r the function must return `0`
+     - If the result can not be stored in `r` the function must return `0`
 
     ### TASK 12: 
     
@@ -109,10 +109,10 @@ Write a function that concatenates two strings.
      - Prototype: `void print_buffer(char *b, int size);`
      - The function must print the content of size bytes of the buffer pointed by `b`
      - The output should print 10 bytes per line
-     - Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with 0
+     - Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with `0`
      - Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space
      - Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print .
      - Each line ends with a new line `\n`
-     - If size is `0` or `less, the output should be a new line only `\n`
+     - If size is `0` or `less', the output should be a new line only `\n`
      - You are allowed to use the standard library
      - The output should look like the following example, and formatted exactly the same way
