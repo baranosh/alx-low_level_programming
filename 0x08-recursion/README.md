@@ -1,4 +1,5 @@
 # 0x08. C - Recursion
+
 ##     TASK 0
 - Write a function that prints a string, followed by a new line.
 
@@ -21,7 +22,7 @@
      - If n is lower than 0, the function should return -1 to indicate an error
      - Factorial of 0 is 1
      
-     ##     TASK 4
+##     TASK 4
 - Write a function that returns the factorial of a given number.
 
      - Prototype: int factorial(int n);
