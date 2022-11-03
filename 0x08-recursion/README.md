@@ -51,3 +51,8 @@
      - Prototype: `int wildcmp(char *s1, char *s2);`
      - `s2` can contain the special character *.
      - The special char `*` can replace any string (including an empty string)
+     
+     `` `txt
+This is some text that will not be syntax highlighted
+but shows up in a code box.
+`` `
