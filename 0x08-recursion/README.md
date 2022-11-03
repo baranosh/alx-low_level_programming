@@ -52,6 +52,8 @@
      - `s2` can contain the special character *.
      - The special char `*` can replace any string (including an empty string)
      
-`` `dos
-robocopy c:\temp\test d:\temp\test
-`` `
+ // this code will be syntax highlighted
+for(var i=0; i++; i < 10)
+{
+    Console.WriteLine(i);
+}
