@@ -51,9 +51,3 @@
      - Prototype: `int wildcmp(char *s1, char *s2);`
      - `s2` can contain the special character *.
      - The special char `*` can replace any string (including an empty string)
-     
- // this code will be syntax highlighted
-for(var i=0; i++; i < 10)
-{
-    Console.WriteLine(i);
-}
