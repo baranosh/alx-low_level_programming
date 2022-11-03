@@ -52,7 +52,6 @@
      - `s2` can contain the special character *.
      - The special char `*` can replace any string (including an empty string)
      
-`` `txt
-This is some text that will not be syntax highlighted
-but shows up in a code box.
+`` `dos
+robocopy c:\temp\test d:\temp\test
 `` `
