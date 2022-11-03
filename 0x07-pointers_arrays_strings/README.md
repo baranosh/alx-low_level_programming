@@ -1,6 +1,6 @@
 # 0x07 EVEN POINTERS, ARRAYS AND STRINGS
 
-##     TASK 0
+###     TASK 0
 - Write a function that fills memory with a constant byte.
 
      - Prototype: `char *_memset(char *s, char b, unsigned int n);`
@@ -14,7 +14,7 @@
      - The `_memcpy()` function copies `n` bytes from memory area `src` to memory area `dest`
      - Returns a pointer to `dest`
 
-##     TASK 2
+###     TASK 2
 - Write a function that locates a character in a string.
 
      - Prototype: `char *_strchr(char *s, char c);`
@@ -26,7 +26,7 @@
      - Prototype: `unsigned int _strspn(char *s, char *accept);`
      - Returns the number of bytes in the initial segment of `s` which consist only of bytes from `accept`
 
-##     TASK 4
+###     TASK 4
 - Write a function that searches a string for any of a set of bytes.
 
      - Prototype: `char *_strpbrk(char *s, char *accept);`
