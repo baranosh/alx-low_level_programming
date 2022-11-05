@@ -2,15 +2,22 @@
 #include <stdlib.h>
 
 /**
- * main - write a program that prints then number of arguments passed into it
+ * main - a program that prints number of arguments
  * @argc: variable one
  * @argv: variable two
- * Description: program that prints out the number of arguments
- * Return: 0
+ *
+ * Description: prints number of arguments
+ * Return: 0 
  */
 
-int main(int argc, int *argv[])
+int main(int argc, char **argv)
 {
-	printf("%d\n", argc);
+	int sum;
+
+	for (sum = 0; sum < argc; sum++)
+	{
+		*argv[sum] = *argv[sum];
+	}
+	printf("%d\n", (sum - 1));
 	return (0);
 }
