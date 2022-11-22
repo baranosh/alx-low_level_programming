@@ -273,7 +273,8 @@ This file should contain the function that selects the correct function to perfo
     };
     int i;
     ```
-###  3-main.c
+
+###   3-main.c
 This file should contain your main function only.
 
    - You are not allowed to code any other function than main in this file
